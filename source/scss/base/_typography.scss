@@ -1,0 +1,37 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: $body--normal;
+}
+
+h1{
+  font: $heading--x-large;
+}
+
+h2 {
+  font: $heading--normal;
+}
+
+h3 {
+  font: $heading--small;
+}
+
+h4 {
+  font: $heading--x-small;
+}
+
+h1,h2,h3,h4,h5 {
+  color: #2b363c;
+}
+
+a {
+  color: #2b363c;
+  text-decoration: none;
+}
+
+em {
+  font-style: italic;
+  opacity: 0.9;
+}

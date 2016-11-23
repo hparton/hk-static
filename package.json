@@ -1,0 +1,15 @@
+{
+  "name": "housekeeping-static",
+  "version": "1.0.0",
+  "description": "Housekeeping installer for a basic static site with browserSync live reloading and sass/js compilation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hparton",
+  "repository": "https://github.com/hparton/hk-static",
+  "license": "ISC",
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
+}

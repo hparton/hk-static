@@ -1,0 +1,20 @@
+.cf, .clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
