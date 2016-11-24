@@ -2,6 +2,7 @@ var ncp = require('ncp').ncp;
 var exec = require("child_process").exec;
 
 var static = function () {
+	console.log('~ '.yellow + 'Copying files...')
 	ncp(__dirname + '/source', process.cwd(), function (err) {
 		if (err) {
 			return console.error(err);

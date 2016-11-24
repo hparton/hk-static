@@ -1,6 +1,6 @@
 {
   "name": "housekeeping-static",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Housekeeping installer for a basic static site with browserSync live reloading and sass/js compilation",
   "main": "index.js",
   "scripts": {
